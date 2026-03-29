@@ -1,0 +1,62 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-color: #3b82f6;
+    color: white;
+}
+
+/* Cards for skills */
+.card {
+    display: inline-block;
+    background: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact */
+#contact {
+    background-color: #1e3a8a;
+    color: white;
+}
